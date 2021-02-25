@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.form {
+    width: 100%;
+    padding: 50px 30px;
+    margin: 0 auto;
+    border: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #fff;
+    overflow: hidden; 
+}
+.contents {
+	margin: 100px 0 0 0;
+	min-height: 100vh;
+}
+.input {
+	margin-bottom: 20px;
+}
+.input input, .input textarea {
+    display: block;
+    padding: 6px 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+}
+.input textarea {
+	width: 100%;
+    resize: none;
+    height: 300px;
+}
+.input__text input {
+	width: 100%;
+}
+.input__file {
+    position: relative;
+}
+.input__file .file-upload-input {
+	width: 100%;
+	color: rgb(117, 117, 117);
+}
+.input__file .file-upload-button {
+    content: 'Browse';
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 10px;
+    line-height: 36px;
+    background-color: #2AAC49;
+    border: 0;
+    color: #fff;
+}
+.input label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 16px;
+}
+.input__btn {
+	margin-top: 50px;
+	text-align: center;
+}
+.input__btn .btn {
+	cursor: pointer;
+	border: 0;
+	appearance: none;
+	display: inline-flex;
+    background: #f79781;
+    padding: 12px 35px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+	.contents {margin: 100px 10px 0 10px;}
+}
